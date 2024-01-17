@@ -41,7 +41,38 @@ span{
   color:aqua;
 }
 @media screen and (max-width: 599px) {
-  .main {
-    width: 350px;
-    height: 400px;
-  }}
+  .card{
+    position: relative;
+    border-radius: 20px;
+    height: 500px;
+    width: 300px;
+    overflow: hidden;
+  }
+  .bio{
+    opacity: 0;
+    position:absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    color: white;
+  }
+  .image-card{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s all ease-in-out;
+  }
+  .card:hover .image-card {
+    transform: scale(1.5);
+    transition: 1s all ease-in-out;
+    filter: blur(10px);
+  }
+  .card:hover .bio {
+    opacity: 1;
+    transition: 0.5s all ease-in-out;
+  }
+  span{
+    color:aqua;
+  }
+}
