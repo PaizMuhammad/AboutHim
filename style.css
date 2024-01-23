@@ -7,7 +7,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align:left;
-  font-size: x-large;
+  font-size: large;
   height: 100vh;
 }
 .card{
@@ -16,11 +16,8 @@ body{
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   border-radius: 20px;
-  height: 75%;
-  width: 80%;
+  height: 80%;
   overflow:hidden;
-  margin: auto;
-  display: block;
 }
 .bio{
   opacity: 0;
